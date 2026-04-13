@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <title>FLU Events</title>
+</head>
+<body>
+
+<h1 id="title"></h1>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
+
+<div id="participantPanel">
+  <h2>Takımlar</h2>
+
+  <input id="nameInput" placeholder="İsim gir" />
+  <button id="addBtn">Ekle</button>
+  <span id="count"></span>
+
+  <ul id="list"></ul>
+</div>
+
+<button id="drawBtn">Kura Çek</button>
+<button id="editBtn" style="display:none;">Katılımcıları Düzenle</button>
+
+<h2>Eşleşmeler</h2>
+<ul id="matches"></ul>
+
+
+<button id="nextRoundBtn">Sonraki Tur</button>
+<div id="drawScreen"></div>
+
+<div id="championScreen">
+  <div class="champion-content">
+    <h1>🏆 ŞAMPİYON 🏆</h1>
+    <h2 id="championName"></h2>
+    <p>(kapatmak için tıkla)</p>
+  </div>
+</div>
+
+<img src="/src/assets/flu.png" id="fluLogo" />
