@@ -127,7 +127,7 @@ async function drawMatches() {
 
     screen.innerHTML = `<div class="draw-name">${name}</div>`;
 
-    await new Promise(res => setTimeout(res, 2500));
+    await new Promise(res => setTimeout(res, 2200));
 
     if (!matches[matchIndex]) {
       matches[matchIndex] = {
@@ -146,7 +146,7 @@ async function drawMatches() {
       matches[matchIndex].p2 = name;
       li.querySelector(".right-slot").textContent = name;
     }
-    await new Promise(res => setTimeout(res, 1800));
+    await new Promise(res => setTimeout(res, 1200));
   }
 
   // Tek kişi artarsa BAY yap
